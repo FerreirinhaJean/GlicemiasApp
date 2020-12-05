@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlicemiasApp", "GlicemiasAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlicemiasBaseDados", "GlicemiasBaseDados\GlicemiasBaseDados.csproj", "{C20530EA-88B2-4FD6-B204-5DDB5D9229E5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlicemiasApp.Test", "Glicemias.Domain.Test\GlicemiasApp.Test.csproj", "{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C20530EA-88B2-4FD6-B204-5DDB5D9229E5} = {C20530EA-88B2-4FD6-B204-5DDB5D9229E5}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{C20530EA-88B2-4FD6-B204-5DDB5D9229E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C20530EA-88B2-4FD6-B204-5DDB5D9229E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C20530EA-88B2-4FD6-B204-5DDB5D9229E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

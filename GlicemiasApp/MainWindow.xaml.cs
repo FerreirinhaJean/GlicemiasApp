@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GlicemiasBaseDados.Uteis;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,15 @@ namespace GlicemiasApp
         public MainWindow()
         {
             InitializeComponent();
+
+            try
+            {
+                Db.GetConnectionDb();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Erro do bd");
+            }
         }
     }
 }

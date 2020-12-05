@@ -9,6 +9,7 @@ namespace GlicemiasBaseDados.Model
     public class Usuario
     {
         public virtual string Nome { get; set; }
+        public virtual DateTime DtNasc { get; set; }
         public virtual int Idade { get; set; }
         public virtual string Cpf { get; set; }
 

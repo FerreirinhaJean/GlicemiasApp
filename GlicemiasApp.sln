@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlicemiasApp.Test", "Glicem
 		{C20530EA-88B2-4FD6-B204-5DDB5D9229E5} = {C20530EA-88B2-4FD6-B204-5DDB5D9229E5}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlicemiasApp.Control", "GlicemiasApp.Control\GlicemiasApp.Control.csproj", "{CF65CA1C-7106-4ABA-94F4-3D3B7B85ACAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CE0C1F7-88B5-4580-BD33-EF8B9A5A8BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF65CA1C-7106-4ABA-94F4-3D3B7B85ACAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF65CA1C-7106-4ABA-94F4-3D3B7B85ACAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF65CA1C-7106-4ABA-94F4-3D3B7B85ACAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF65CA1C-7106-4ABA-94F4-3D3B7B85ACAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

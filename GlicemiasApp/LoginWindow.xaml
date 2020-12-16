@@ -15,7 +15,8 @@
             <Label Content="Senha" Canvas.Top="48" Canvas.Left="49"/>
             <PasswordBox Name="PbSenha" Canvas.Left="96" Canvas.Top="51" Width="190" Height="23"/>
 
-            <Button Name="BtLogin" Height="23" Width="90" Canvas.Left="96" Canvas.Top="97" Content="Login"/>
+            <Button Name="BtLogin" Height="23" Width="90" Canvas.Left="96" Canvas.Top="97" Content="Login"
+                    Click="BtLogin_Click"/>
 
             <Button Name="BtCadastrar" Height="23" Width="90" Canvas.Left="196" Canvas.Top="97" Content="Cadastre-se"/>
 
